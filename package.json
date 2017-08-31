@@ -1,17 +1,17 @@
 {
-  "name": "xy-blueprint",
-  "version": "0.0.1",
-  "description": "Something better xy-blueprint should be here!",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tbayaa/xy-blueprint.git"
-  },
-  "keywords": [
-    "ember-blueprint",
-    "ember-addon"
-  ],
-  "ember-addon": {
-    "main": "ember-addon-main.js"
-  }
+	"name": "xy-blueprint",
+	"version": "0.0.1",
+	"description": "Something better xy-blueprint should be here!",
+	"main": "index.js",
+	"repository": {
+	"type": "git",
+		"url": "git+https://github.com/tbayaa/xy-blueprint.git"
+	},
+	"keywords": [
+		"ember-blueprint",
+		"ember-addon"
+	],
+	"ember-addon": {
+		"main": "ember-addon-main.js"
+	}
 }

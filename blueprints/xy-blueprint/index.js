@@ -1,6 +1,5 @@
-'use strict';
-const path = require('path');
-const MainBlueprint = require('../../index');
+const path = require('path')
+const MainBlueprint = require('../../index')
 
 /*
   Create an "addon blueprint" that simply defers to our
@@ -17,10 +16,10 @@ const MainBlueprint = require('../../index');
     * blueprints/ folder
  */
 module.exports = Object.assign({}, MainBlueprint, {
-  init() {
-    this._super.init.apply(this, arguments);
+	  init() {
+				this._super.init.apply(this, arguments)
 
-    this.path = path.join(__dirname, '..', '..');
-    this.name = 'xy-blueprint';
-  }
-});
+				this.path = path.join(__dirname, '..', '..')
+				this.name = 'xy-blueprint'
+		}
+})

@@ -1,5 +1,3 @@
-'use strict';
-
 /*
   Create an "addon blueprint" that simply defers to our
   top level entry point as the blueprint.
@@ -15,5 +13,5 @@
   * blueprints/ folder
   */
 module.exports = {
-  name: 'xy-blueprint'
-};
+    name: 'xy-blueprint'
+}

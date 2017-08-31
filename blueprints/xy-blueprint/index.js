@@ -16,10 +16,10 @@ const MainBlueprint = require('../../index')
     * blueprints/ folder
  */
 module.exports = Object.assign({}, MainBlueprint, {
-	  init() {
-				this._super.init.apply(this, arguments)
+    init() {
+        this._super.init.apply(this, arguments)
 
-				this.path = path.join(__dirname, '..', '..')
-				this.name = 'xy-blueprint'
-		}
+        this.path = path.join(__dirname, '..', '..')
+        this.name = 'xy-blueprint'
+    }
 })
